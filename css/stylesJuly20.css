@@ -1,0 +1,70 @@
+/* Desktop, fixed width CSS */
+
+.ui-page {
+    background: url("images/texturedbg.png");
+    background-repeat: repeat;
+}
+
+.ui-select span .ui-btn-text
+{
+	font-size:12px;
+}
+
+label.ui-input-text, .ui-controlgroup-label , label.ui-select, .ui-btn-text
+{
+	font-size:12px;
+}
+
+input.ui-input-text, textarea.ui-input-text  
+{
+	font-size:12px;
+}
+
+/*temporary hack for collapsible sets until 1.2.0 comes out*/
+
+.ui-collapsible.ui-collapsible-collapsed .ui-collapsible-heading .ui-icon-plus,
+.ui-icon-arrow-r { background-position: -108px 0; }
+.ui-icon-arrow-l { background-position: -144px 0; }
+.ui-icon-arrow-u { background-position: -180px 0; }
+.ui-collapsible .ui-collapsible-heading .ui-icon-minus,
+.ui-icon-arrow-d { background-position: -216px 0; }
+
+
+@media all {
+	.ui-field-contain, fieldset.ui-field-contain { padding: .2em 0; margin: 0; border-width: 0 0 0 0; }
+}
+
+.ui-li.ui-field-contain  {
+	border-top-width: 0px;
+}
+
+.ui-listview {
+	padding-top: 10px;
+}
+
+a.ui-link-inherit {
+	padding-top: 0px;
+}
+
+.ui-icon-myapp-edit {
+	background-image: url("images/pencil.png");
+	background-position: 1px 1px;
+}
+
+.ui-icon-myapp-delete {
+	background-image: url("images/trash.png");
+	background-position: 1px 1px;
+}
+
+.ui-btn-hover-b:visited,
+.ui-btn-hover-a:hover,
+.ui-btn-hover-b a.ui-link-inherit,
+.ui-btn-up-b:visited, .ui-btn-up-b a.ui-link-inherit {
+	color:#2F3E46;
+}
+
+.coffeeDetails
+{
+	padding-left:15px;
+	padding-right:15px;
+}

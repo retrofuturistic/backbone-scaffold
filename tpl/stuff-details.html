@@ -1,0 +1,21 @@
+
+        <div data-role="header" data-theme="b" data-position="fixed">
+             <h1><%= name %></h1>
+              <a href="#" data-transition="slide" data-icon="arrow-l" data-iconpos="left" class="ui-btn-left" >Coffees</a>
+        </div><!---header-->
+        
+        <div data-role="content">
+        	<div class="coffeeDetails">
+                <p class="descDetails"><b>Description:</b><%= description %></p>
+			</div>
+        </div>
+        <div data-role="footer" data-theme="b" data-position="fixed" data-fullscreen="true">		
+            <div data-role="navbar" data-iconpos="top">
+                <ul>
+                    <li><a href="#browse" data-transition="slide" data-role="button" data-icon="grid"></a></li>
+                    <li><a href="#browse" data-transition="slide" data-role="button" data-icon="star" class="myFavorite"></a></li>
+                    <li><a href="#browse" data-transition="slide" data-role="button" data-icon="myapp-delete" class="delete"></a></li>
+                    <li><a href="#stuff/<%= id %>/edit" data-transition="slide" data-role="button" data-icon="myapp-edit"></a></li>
+                </ul>
+            </div><!-- /navbar -->
+        </div><!-- /footer --> 
