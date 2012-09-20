@@ -1,8 +1,8 @@
 Backbone-Scaffold To Do List:
 
-- clean up code
-- commit to github repository
+- reorganize code into separate files
 - update UI to coffee app
+- add left slide transition when going "up" the chain
 - add favorites
 - add filtering by name, roaster, favorites
 - add ui validation
