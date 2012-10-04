@@ -1,8 +1,12 @@
 Backbone-Scaffold To Do List:
 
-- reorganize code into separate files
-- update UI to coffee app
-- add left slide transition when going "up" the chain
+- set defaults???
+- add ui validation
+- find out binding to reset, change events of a model for a view
+- create roaster table and add autocomplete with frequent roasters
 - add favorites
 - add filtering by name, roaster, favorites
-- add ui validation
+
+
+Retro-futuristic
+- update to html tags
