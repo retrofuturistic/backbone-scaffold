@@ -142,9 +142,18 @@ $(document).ready(function() {
 	//Setting this to the window.db so we can access it later	
 	myApp.db = stuffnotes;
 	
+	
 	//this sync with the database the schema we just defined			
 	persistence.schemaSync();		
    	console.log('database sync');
+
+	var some_stuff = new stuffnotes({
+										name:"myStuff",
+										description:"my description"
+										});
+										
+	persistence.add(some_stuff);
+	persistence.flush();
 	
 	//we use the template loader to load our template and
 	//set a callback that starts our backbone router and history
